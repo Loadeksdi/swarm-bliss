@@ -2,7 +2,6 @@
   import { onDestroy, onMount } from "svelte";
   import { emit, listen, type UnlistenFn } from '@tauri-apps/api/event';
 
-  
   interface Message {
     message: string;
   }
